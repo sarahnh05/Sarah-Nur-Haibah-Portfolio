@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarah Nur Haibah | Backend Developer</title>
+  <meta name="description" content="Portfolio of Sarah Nur Haibah, Mid-Level Backend Developer specialized in Node.js, PostgreSQL, and scalable architecture.">
+  
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Sarah Nur Haibah | Backend Developer">
+  <meta property="og:description" content="Mid-Level Backend Developer specialized in Node.js, PostgreSQL, NATS, and scalable architecture.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts: Outfit (Header), DM Sans (Body), Fira Code (Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fira+Code:wght@400;500&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sarah Nur Haibah",
+    "jobTitle": "Backend Developer",
+    "knowsAbout": ["Node.js", "Express", "TypeScript", "PostgreSQL", "MongoDB", "NATS"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header id="header">
+    <nav aria-label="Main Navigation">
+      <div class="logo">Sarah<span>.dev</span></div>
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        ☰
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">01. Home</a></li>
+        <li><a href="#about">02. About</a></li>
+        <li><a href="#skills">03. Tech Stack</a></li>
+        <li><a href="#projects">04. Projects</a></li>
+        <li><a href="#contact">05. Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="container">
+      <div class="hero-content">
+        <div class="hero-text reveal">
+          <span class="subtitle">GET /api/v1/sarah/profile</span>
+          <h1>Sarah Nur Haibah.</h1>
+          <h2>I build scalable backends.</h2>
+          <p>Mid-Level Backend Developer specializing in designing robust architectures, optimizing databases, and building reliable APIs for modern startups.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Architecture</a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+        </div>
+        
+        <!-- Interactive API Simulator (Unique Element) -->
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="api-simulator">
+            <div class="api-header">
+              <div class="api-dot dot-r"></div>
+              <div class="api-dot dot-y"></div>
+              <div class="api-dot dot-g"></div>
+              <span class="api-title">bash - sarah@server:~</span>
+            </div>
+            <div class="api-body" id="typewriter">
+<span class="api-method">GET</span> <span class="api-endpoint">/api/v1/profile</span>
+<span style="color: #89ddff;">{</span>
+  <span class="api-key">"status"</span>: <span class="api-number">200</span>,
+  <span class="api-key">"data"</span>: {
+    <span class="api-key">"name"</span>: <span class="api-string">"Sarah Nur Haibah"</span>,
+    <span class="api-key">"role"</span>: <span class="api-string">"Backend Developer"</span>,
+    <span class="api-key">"experience_years"</span>: <span class="api-number">3</span>,
+    <span class="api-key">"core_focus"</span>: <span class="api-string">"System Design & Optimization"</span>,
+    <span class="api-key">"status"</span>: <span class="api-string">"Open to Work"</span>
+  }
+<span style="color: #89ddff;">}</span>
+<span class="cursor">_</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container reveal">
+      <h2 class="section-title">02. About Me</h2>
+      <div class="about-grid">
+        <div class="about-text glass-panel">
+          <p>Hello! I am Sarah, a backend developer who loves turning complex business logic into efficient and maintainable systems. My journey started 3 years ago, and since then, I've been helping startups scale their infrastructure.</p>
+          <br>
+          <p>I don't just write code; I design systems. Whether it's dealing with race conditions, optimizing slow queries in PostgreSQL, or setting up asynchronous message brokers with NATS, I thrive on backend challenges.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container reveal">
+      <h2 class="section-title">03. Tech Stack</h2>
+      <div class="glass-panel">
+        <p>Technologies I work with daily to build scalable systems:</p>
+        <div class="skills-container">
+          <div class="skill-badge" tabindex="0">[ Node.js / Express ]</div>
+          <div class="skill-badge" tabindex="0">[ TypeScript ]</div>
+          <div class="skill-badge" tabindex="0">[ JavaScript ]</div>
+          <div class="skill-badge" tabindex="0">[ PostgreSQL ]</div>
+          <div class="skill-badge" tabindex="0">[ MongoDB ]</div>
+          <div class="skill-badge" tabindex="0">[ NATS ]</div>
+          <div class="skill-badge" tabindex="0">[ REST APIs ]</div>
+          <div class="skill-badge" tabindex="0">[ System Design ]</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container reveal">
+      <h2 class="section-title">04. Deep Architecture Projects</h2>
+      
+      <!-- Project 1 -->
+      <article class="project-card glass-panel">
+        <div class="project-header">
+          <h3 class="project-title">Microservices E-Commerce Core</h3>
+          <p class="project-stack">Node.js | TypeScript | NATS | PostgreSQL</p>
+        </div>
+        <p>A highly scalable backend for an e-commerce platform handling high concurrency during flash sales. Implemented event-driven architecture using NATS to decouple the order processing service from the notification service, resulting in a 70% decrease in checkout latency.</p>
+        <br>
+        <p><strong>Key Achievements:</strong></p>
+        <ul class="project-bullets">
+          <li>Optimized PostgreSQL queries using compound indexing.</li>
+          <li>Handled distributed transactions and race conditions gracefully.</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline" aria-label="View Source Code for Microservices Core">GitHub Repo</a>
+          <a href="#" class="btn btn-outline" aria-label="Read System Design Document">System Design Doc</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card glass-panel reveal">
+        <div class="project-header">
+          <h3 class="project-title">Real-time Analytics Pipeline</h3>
+          <p class="project-stack">Node.js | MongoDB | WebSockets</p>
+        </div>
+        <p>Designed a data ingestion pipeline that processes thousands of events per second. Utilized MongoDB aggregation frameworks to generate real-time dashboards for the business team.</p>
+        <br>
+        <p><strong>Key Achievements:</strong></p>
+        <ul class="project-bullets">
+          <li>Reduced database load by 40% through effective schema design.</li>
+          <li>Structured modular, testable, and clean code.</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" class="btn btn-outline" aria-label="View Source Code for Analytics Pipeline">GitHub Repo</a>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container reveal">
+      <div class="contact-content glass-panel">
+        <h2 class="section-title">05. What's Next?</h2>
+        <p>I am currently open to new opportunities as a Mid-Level Backend Developer. Whether you have a question or just want to discuss system design, my inbox is always open.</p>
+        
+        <form class="contact-form" id="contactForm" onsubmit="event.preventDefault(); alert('Message sent!');">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required aria-required="true" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required aria-required="true" placeholder="john@company.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required aria-required="true" placeholder="Hello Sarah..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Say Hello</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Built with Semantic HTML5, CSS3, & Vanilla JS. ZERO non-semantic divs.</p>
+    <p>&copy; 2026 Sarah Nur Haibah</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script defer src="script.js"></script>
+</body>
+</html>
