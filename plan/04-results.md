@@ -16,13 +16,19 @@
 
 ## Screenshot: Desktop
 
-[paste screenshot — all sections visible]
+![Desktop - Section 1](../assets/desktop-01.PNG)
+![Desktop - Section 2](../assets/desktop-02.PNG)
+![Desktop - Section 3](../assets/desktop-03.PNG)
+![Desktop - Section 4](../assets/desktop-04.PNG)
 
 ---
 
 ## Screenshot: Mobile
 
-[paste screenshot — responsive, no horizontal scroll]
+![Mobile - Section 1](../assets/mobile-01.PNG)
+![Mobile - Section 2](../assets/mobile-02.PNG)
+![Mobile - Section 3](../assets/mobile-03.PNG)
+![Mobile - Section 4](../assets/mobile-04.PNG)
 
 ---
 
