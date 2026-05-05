@@ -16,7 +16,7 @@
 
 ## Screenshot: Desktop
 
-![Desktop - Section 1](./assets/desktop-01.PNG)
+![Desktop - Section 1](../assets/desktop-01.PNG)
 ![Desktop - Section 2](../assets/desktop-02.PNG)
 ![Desktop - Section 3](../assets/desktop-03.PNG)
 ![Desktop - Section 4](../assets/desktop-04.PNG)
