@@ -497,6 +497,37 @@ section {
   outline: none;
 }
 
+/* detail */
+#detail {
+  margin-bottom: 4rem;
+  margin-top: 8rem;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+.detail-image {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.detail-image-test {
+  width: 50%;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.detail-text p,
+ul,
+li {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
 /* Footer */
 footer {
   text-align: center;
